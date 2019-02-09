@@ -1,0 +1,60 @@
+/*reference:https://bl.ocks.org/d3noob/629790fc15cc1afba0253f29a4d246e7*/
+.axis path{/* set the style of path in axis*/
+	fill: none;
+	stroke: black;
+}
+.axis line{/* set the style of line in axis*/
+    fill: none;
+    stroke: blue;
+}
+.axis text {/* set the style of text shown on the axis */
+	font-family: sans-serif;
+	font-size: 7px;
+}
+.MyRect {/* set the style of rectangle */
+	fill: #FF4B4B;
+}
+.MyText {/* set the style of text shown on the rect*/
+	fill: black;
+	text-anchor: middle;
+}
+
+body
+{   /* background */
+	background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+}
+input {
+    position: absolute;
+    top:150px;
+    border-radius: 100px;
+    height: 40px;
+    width: 15%;
+    left:30px;
+   }
+
+button{
+    position: absolute;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    width: 15%;
+    height: 40px;
+    top: 220px;
+    left:30px;
+    transition: all 0.6s;
+    background-color: #FDCFB7;
+    box-shadow: 0 6px #F4828C;
+}
+    
+button:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+button:focus {
+    outline: none;
+}
