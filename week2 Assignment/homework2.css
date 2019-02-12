@@ -1,0 +1,12 @@
+
+td {
+    border-style: solid;
+    border-width: thin;
+    text-align: center;/*set all text central*/
+    height: 25px; /*set a fixed height*/
+    width: auto; /*set the width adjusted by the longest length of the text in cell*/
+    padding: 7px;
+}
+table{
+	border: 1px solid black; /*set a border for the whole table*/
+}
