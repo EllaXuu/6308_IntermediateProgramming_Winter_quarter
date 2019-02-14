@@ -1,0 +1,8 @@
+
+td {
+    border-style: solid;
+    border-width: thin;
+    height: 25px; /*set a fixed height*/
+    width: auto; /*set the width adjusted by the longest length of the text in cell*/
+    padding: 7px;
+}
