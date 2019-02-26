@@ -1,0 +1,12 @@
+
+#hmwk5,#bonus,#submit,#submitChangePwd{
+	/*visibility: hidden;*//* A "Submit" button that is not visible by default */
+	display: none;
+}
+#new_login_fields,#submitNewPassword,#updateGuest,#guestReset{
+	display: none;
+}
+.warningInfo,.wrongInfo,.changeInfo{
+	display: none;
+	color: red;
+}
