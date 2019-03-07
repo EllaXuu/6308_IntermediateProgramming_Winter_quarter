@@ -1,0 +1,32 @@
+
+	body{
+		background-image: url(machine_bg.jpg);/*add machine image as background*/
+		background-repeat: no-repeat;
+        background-position: left 7.5px top 10px; /*Keep aligned with the display_start image*/
+	}
+
+	#handlerUp{
+		position: absolute;
+		left:533.5;
+		top: 10px;
+	}
+	#slot1{
+		position: absolute;
+		left:49.5px;
+		top: 119px;
+		border-radius: 20px; 
+		/*show the round conner in case the display of opaque corners*/
+	}
+	#slot2{
+		position: absolute;
+		left:208.5px;
+		top: 119px;
+		border-radius: 20px; 
+
+	}	
+	#slot3{
+		position: absolute;
+		left:366.5px;
+		top: 119px;
+		border-radius: 20px; 
+	}
