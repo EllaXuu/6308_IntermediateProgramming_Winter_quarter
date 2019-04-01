@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ella's Final Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet"><!-- font -->
+     <!-- library -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!--jquery library-->
+    <script
+       src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+       integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+       crossorigin="anonymous"></script><!--jquery-ui library-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--sweetalert library-->
+    <!-- files -->
+	<link rel="stylesheet" type="text/css" href="css/final.css">
+	<script type="text/javascript" src="js/sticker.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	
+</head>
+
+<body>
+<div id='container'>
+<!--the home page -->
+<div id='homePage'>
+    <h1 id="gameName" class="title">Daily Clock On</h1><!--the title-->
+    <p id='currentName'> </p><br>
+    <input id ="userInput" type="text" name="textname" placeholder="Create your username"><!--input box for user name-->
+    <button id="howToPlay">How to play?</button><!--the "how to play" button-->
+    <br> <br>
+    <button id="startPlay">Start</button><!--the "start" button-->
+</div>
+<!--the main page -->
+<div id='mainPage'>
+    <button id="addMoreSticker">Add sticker</button>
+    <button id="addpet">Random a Pet</button>
+    <div id='petarea'></div>
+    <h3 id ="today">Today...</h3>
+    <h3 id ="welcome">Welcome</h3>
+    <table id ='timeTable'></table><!--the timetable -->
+    <div id="showDiv"></div><!--the mouseover show div -->
+</div>
+<!--the task page -->
+<div id='taskPage'>
+    <h1 id='taskHead'>Create Your Task Now :</h1><br>
+    <h3 id ="taskTitleLable">Task Title:</h3>
+
+    <input type="text" id ='taskTitle'name='taskTitle'><br><br><!--the title input -->
+    <!--the select boxes input -->
+    <select name="starthour" id="starthour" class="starthour"></select>
+    <label id='to'>TO:</label>
+    <select name="endhour" id="endhour" class="endhour"></select>
+    <select name="selectcolor" id="selectcolor" class="redoption"></select><br><br>
+
+    <h3 id='taskContentLable'>Task Content:</h3><br>
+    <textarea id="taskContent" cols="30" rows="8"></textarea><br><br>
+    <!--the buttons -->
+    <button id="saveBtn">SAVE</button>
+    <button id="deleteBtn">DELETE</button>
+    <button id ='deleteALlBtn'>DELETE ALL</button>
+    <br><br>
+</div>
+
+</div>
+</body>
+
+</html>
